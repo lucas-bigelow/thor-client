@@ -18,7 +18,7 @@ function Nav() {
   return (
     <nav>
       <div><button onClick={handleHome}>Home</button></div>
-      <div><button onClick={handleTrails}>Trails</button></div>
+      <div><button onClick={handleTrails} id='trails-button'>Trails</button></div>
       <div><button onClick={handleUser}>Log In/Sign Up</button></div>
     </nav>
   )
